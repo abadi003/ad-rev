@@ -1,0 +1,117 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.ad-review {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+.review-result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+header{
+padding: 20px;
+border-width: 0px;
+border-bottom: 1px solid black;
+}
+.form-select{
+  direction: rtl;
+  padding: .375rem .75rem .375rem 2.25rem;
+  background-position: left .75rem center;
+}
+.name{
+  font-size: 3.75rem;
+  color: darkslategray;
+  font-weight: 700;
+}
+.description{
+  font-size: 3rem;
+  color: #082653;
+  font-weight: 700;
+  padding-top: 4rem;
+}
+.underline{
+    background-image: url("../public/cross-out-underline.svg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    display: inline-block;
+    margin-bottom: -4.7rem;
+    margin-left: -3rem;
+    margin-right: -3rem;
+    overflow: visible;
+    padding-bottom: 6.6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.init{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 6rem;
+}
+.form{
+  margin-bottom: 1.5rem;
+  border-radius: .75rem;
+  border-width: 1px;
+  background-color: white;
+  box-shadow: 0 0 #0000 , 0 0 #0000 , 0 20px 25px -5px #0000001a,0 8px 10px -6px #0000001a;
+  padding: 1.25rem;
+}
+#root{
+  background-color: white;
+}
+label{
+  margin-bottom: 0.25rem;
+}
+.custom-file-button input[type=file] {
+  margin-left: -2px !important;
+}
+
+.custom-file-button input[type=file]::-webkit-file-upload-button {
+  display: none;
+}
+
+.custom-file-button input[type=file]::file-selector-button {
+  display: none;
+}
+.custom-file-label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  text-align: center;
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.result{
+  height: 90%;
+}
