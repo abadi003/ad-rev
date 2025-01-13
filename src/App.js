@@ -182,7 +182,9 @@ const App = () => {
           </div>
         </form>
         {loadingSubmit ? (
-          <Spinner animation="border" size="sm" />
+          <div className="loading-overlay">
+          <div className="spinner"></div>
+        </div>
         ) : (
           <div className="row">
             {ads.map((ad) => (
