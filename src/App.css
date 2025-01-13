@@ -115,3 +115,6 @@ label{
 .result{
   height: 90%;
 }
+textarea#ad{
+  width: 90%;
+}
